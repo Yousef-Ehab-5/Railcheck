@@ -1,0 +1,24 @@
+name: railcheck
+description: Offline railway inspection classroom training simulator.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+  flutter: '>=3.35.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  floor: 1.5.0
+  sqflite: ^2.4.2
+  sqflite_common_ffi_web: 0.4.5+4
+  geolocator: 14.0.2
+  # Keep the Android implementation on AGP 8 for this project scaffold.
+  geolocator_android: 5.0.2
+  shake: 3.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  floor_generator: 1.5.0
+  build_runner: 2.4.13
+flutter:
+  uses-material-design: true

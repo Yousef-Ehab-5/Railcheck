@@ -1,0 +1,21 @@
+RAILCHECK — START HERE (WINDOWS)
+
+1. Extract this ZIP completely to C:\Projects\railcheck.
+   Open the folder containing pubspec.yaml, not the android subfolder.
+2. Install Flutter, Git, Android Studio + Android SDK and the Flutter/Dart IDE plugins.
+   flutter and dart must be available in a NEW terminal.
+3. Double-click setup-windows.bat. Internet is needed for the first setup.
+4. Double-click run-web.bat for Chrome.
+   Or start Pixel 8 in Android Studio > Device Manager, then run:
+     flutter devices
+     flutter run -d emulator-5554
+   Replace emulator-5554 with the ID actually printed by flutter devices.
+5. For an Android phone: enable Developer options and USB debugging, connect by
+   USB, approve the phone's authorization prompt, then choose its flutter devices ID.
+
+The full app code is included. Floor generated code and Web SQLite assets are
+included; setup-windows.bat regenerates/checks them.
+
+Read README.md for full setup, architecture, troubleshooting and test results.
+No Firebase account, API key, remote server or paid service is needed.
+iOS builds require macOS + Xcode. Windows can run Android and Web.
